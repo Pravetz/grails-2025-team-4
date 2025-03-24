@@ -1,2 +1,2 @@
-## Classification of remains of destroyed buildings and construction waste using neural network for image analysis
+## Graphical user interface application for classification of remains of destroyed buildings and construction waste
 

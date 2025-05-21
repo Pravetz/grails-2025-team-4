@@ -17,4 +17,4 @@ Repository map:
 
 - `main` – This is the "welcome page" of the repository.
 - `gui_app` – A graphical application with convenient interface to classify the remains of destroyed buildings and construction waste
-- `EfficientNetB0` ... `VIT_MobileNetV3` – Branches with experiments with different model architectures for construction waste classification
+- `EfficientNetB0` ... `YOLO` – Branches with experiments with different model architectures for construction waste classification

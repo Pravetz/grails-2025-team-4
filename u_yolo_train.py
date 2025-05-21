@@ -66,6 +66,18 @@ def compute_miou(model, data_path, img_width=1920, img_height=1200):
 
 
 if __name__ == "__main__":
+	if len(sys.argv) <= 2:
+		print(f"""Usage: {sys.argv[0]} <parameters>
+Possible parameters:
+	-yolov <string> = specify YOLO version, \'yolov8n\' by default
+	-m <string> = specify trained model file name
+	-teston <path> = give image for testing the trained model
+	-nogpu = don\'t use GPU for training
+	-imgsz <S> = specify image size integer
+	-epochs = specify epoch count to train model
+	-val = turn validation mode on, off by default
+""")
+		exit()
 	validation_mode = False
 	datapath = ""
 	i = 1

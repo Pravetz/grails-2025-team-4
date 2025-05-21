@@ -1,20 +1,13 @@
-## Classification of remains of destroyed buildings and construction waste using neural network for image analysis
-
-# Authors:
-- **Oleksandr Mazurets** – *Faculty Advisor*
-- **Maryna Molchanova** – *Team Captain, Researcher, ML Engineer*
-- **Volodymyr Didur** – *Speaker, ML Engineer, Soft Developer*
-- **Oleksandr Hladun** – *ML Engineer, Soft Developer*
-- **Pavlo Shevchuk** – *Dataset Assembler, ML Engineer*
-- **Iryna Podhorniuk** – *Researcher, Dataset Assembler*
-
-# Navigation
-Welcome!
-
-GUI Application, as well as neural network training code are located in separate branches for easier maintenance and convenient updating.
-
-Repository map:
-
-- `main` – This is the "welcome page" of the repository.
-- `gui_app` – A graphical application with convenient interface to classify the remains of destroyed buildings and construction waste
-- `EfficientNetB0` ... `VIT_MobileNetV3` – Branches with experiments with different model architectures for construction waste classification
+## YOLO for object detection
+This branch contains simple and configurable Python script to train YOLO for object detection using Ultalytics library.
+```
+Usage: u_yolo_train.py <parameters>
+Possible parameters:
+	-yolov <string> = specify YOLO version, 'yolov8n' by default
+	-m <string> = specify trained model file name
+	-teston <path> = give image for testing the trained model
+	-nogpu = don't use GPU for training
+	-imgsz <S> = specify image size integer
+	-epochs = specify epoch count to train model
+	-val = turn validation mode on, off by default
+```

@@ -10,7 +10,7 @@ LOCALIZATION_EN = {
 	"savefrags_btn_text" : "Save fragments...",
 	"delfromgal_btn_text" : "Delete from gallery",
 	"choose_image_text" : "Choose an image...",
-	"statistics_text" : "Image dimensions [IWIDTH]x[IHEIGHT].\n[DCOUNT] objects detected.\n[AVGC]% average confidence.\n",
+	"statistics_text" : "Image dimensions [IWIDTH]x[IHEIGHT].\n[DCOUNT] objects detected.\n[AVGC]% average confidence.\nObject counts:\n[OBJC]",
 	#	settings page
 	"yolo_path_text" : "YOLO path:",
 	"cnnc_path_text" : "Fragment classifier path:",
@@ -35,7 +35,7 @@ LOCALIZATION_UK = {
 	"savefrags_btn_text" : "Зберегти фрагменти...",
 	"delfromgal_btn_text" : "Видалити з галереї",
 	"choose_image_text" : "Обрати фото...",
-	"statistics_text" : "Зображення [IWIDTH]x[IHEIGHT].\nОб\'єктів знайдено: [DCOUNT].\nСередня впевненість: [AVGC]%.\n",
+	"statistics_text" : "Зображення [IWIDTH]x[IHEIGHT].\nОб\'єктів знайдено: [DCOUNT].\nСередня впевненість: [AVGC]%.\nЗнайдені об\'єкти:\n[OBJC]",
 	#	settings page
 	"yolo_path_text" : "Шлях до YOLO:",
 	"cnnc_path_text" : "Шлях до класифікатора фрагментів:",

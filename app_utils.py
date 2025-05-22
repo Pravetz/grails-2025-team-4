@@ -87,6 +87,12 @@ def extract_imsize(string):
 	except Exception:
 		return None
 
+def make_object_count_string(objects):
+	result = ""
+	for k, v in objects.items():
+		result += f"{k}: {v}\n"
+	return result
+
 def format_text(string, subs_table):
 	def replace_placeholder(match):
 		key = match.group(1)

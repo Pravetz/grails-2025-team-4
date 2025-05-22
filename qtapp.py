@@ -259,7 +259,15 @@ class MainWindow(QWidget):
 			subs_table["DCOUNT"] = len(self.prediction[-1]["predictions"])
 			if self.prediction[-1]["classified"]:
 				confidences = [c for _, _, c in self.prediction[-1]["predictions"]]
+				object_list = [k for _, k, _ in self.prediction[-1]["predictions"]]
+				object_counts = {}
+				for o in object_list:
+					if self.label_mapping[o] not in object_counts:
+						object_counts[self.label_mapping[o]] = 1
+						continue
+					object_counts[self.label_mapping[o]] += 1
 				subs_table["AVGC"] = round((sum(confidences) / len(confidences)) * 100.0, 2) if confidences else None
+				subs_table["OBJC"] = app_utils.make_object_count_string(object_counts)
 		loc_text = app_utils.format_text(loc_text, subs_table)
 		target.setText(loc_text)
 

@@ -133,12 +133,13 @@ statistics_text string also accepts following format specifiers:
   IHEIGHT - image height
   DCOUNT - object detections count
   AVGC - average confidence
+  OBJC - detected objects with counts
 ```
 
 Format specifiers are written in brackets: 
 ```json
 {
-  "statistics_text" : "[IWIDTH]x[IHEIGHT] image, [DCOUNT] objects found"
+  "statistics_text" : "[IWIDTH]x[IHEIGHT] image, [DCOUNT] objects found\nObjects on image:\n[OBJC]"
 }
 ```
 

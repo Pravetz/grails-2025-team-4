@@ -679,7 +679,7 @@ class MainWindow(QWidget):
 					cv2.FONT_HERSHEY_SIMPLEX, 0.5, 2,
 					prediction["proc_image"].shape
 				)
-				cv2.putText(prediction["proc_image"], label, (label_x, label_y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+				cv2.putText(prediction["proc_image"], label, (label_x, label_y), cv2.FONT_HERSHEY_COMPLEX, 0.5, color, 2)
 		
 		return prediction["proc_image"]
 	

@@ -1,0 +1,52 @@
+{
+	"0": {
+		"uk": "Цегла",
+		"en": "Brick",
+		"default": "Brick"
+	},
+	"1": {
+		"uk": "Бетон",
+		"en": "Concrete",
+		"default": "Concrete"
+	},
+	"2": {
+		"uk": "Пінопласт",
+		"en": "Foam",
+		"default": "Foam"
+	},
+	"3": {
+		"uk": "Сміття",
+		"en": "General Waste",
+		"default": "General Waste"
+	},
+	"4": {
+		"uk": "Гіпсокартон",
+		"en": "Gypsum Board",
+		"default": "Gypsum Board"
+	},
+	"5": {
+		"uk": "Трубка",
+		"en": "Pipe",
+		"default": "Pipe"
+	},
+	"6": {
+		"uk": "Пластик",
+		"en": "Plastic",
+		"default": "Plastic"
+	},
+	"7": {
+		"uk": "Каміння",
+		"en": "Stone",
+		"default": "Stone"
+	},
+	"8": {
+		"uk": "Плитка",
+		"en": "Tile",
+		"default": "Tile"
+	},
+	"9": {
+		"uk": "Деревина",
+		"en": "Wood",
+		"default": "Wood"
+	}
+}
